@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'G-HZJPHJBN5L', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <title>Portfolio</title>
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,300;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/38e402e814.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/icons8-code-64.png" alt="code"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-section gradient">
+        <div class="row align-items-center justify-content-center pt-1">
+            <div class="col-md-5">
+                <h2>Aspiring Web Developer</h2>
+                <p class="intro-p">
+                    My name is Monica Perez and I have a passion for learning new technologies and front-end web
+                    development.
+                    I am currently learning Bootstrap, JS, PHP, and Wordpress.
+                </p>
+                <button onclick="promptFunction()" type="button" class="btn btn-outline-light btn-lg">Resume</button>
+                <button type="button" class="btn btn-outline-light btn-lg">Social Media</button>
+                <p id="display_content">Hello</p>
+            </div>
+            <div class="col-md-6"><img class="mx-auto d-block" id="moi" src="images/circle-cropped.png" alt=""></div>
+        </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,224L48,234.7C96,245,192,267,288,250.7C384,235,480,181,576,181.3C672,181,768,235,864,224C960,213,1056,139,1152,117.3C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <!-- Tech Skills -->
+    <section class="tech-skill">
+        <div class="container text-center">
+            <div class="row g-5">
+                <div class="col-md-2"> <i class="fab fa-html5 fa-4x"></i></div>
+                <div class="col-md-2"><i class="fab fa-css3 fa-4x""></i></div>
+        <div class=" col-md-2"><i class="fab fa-js-square fa-4x""></i></div>
+        <div class=" col-md-2"><i class="fab fa-php fa-4x""></i></div>
+        <div class=" col-md-2"><i class="fas fa-database fa-4x""></i></div>
+        <div class=" col-md-2"><i class="fab fa-wordpress-simple fa-4x""></i></div>
+    </div>
+</div>
+</section>
+
+<section class=" midPart page-section gradient">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                                            <path fill="#fff" fill-opacity="1"
+                                                d="M0,192L30,208C60,224,120,256,180,250.7C240,245,300,203,360,160C420,117,480,75,540,96C600,117,660,203,720,234.7C780,267,840,245,900,229.3C960,213,1020,203,1080,181.3C1140,160,1200,128,1260,122.7C1320,117,1380,139,1410,149.3L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+                                            </path>
+                                        </svg>
+                                        <div class="container">
+                                            <div class="col-md-5">
+                                                <h2>Tech Skills</h2>
+                                                <p class="more-info">
+                                                    Jianbing ramps pinterest raclette palo santo four dollar toast,
+                                                    coloring book sartorial flannel cornhole knausgaard
+                                                    whatever la croix retro YOLO. Ugh paleo mixtape hexagon, wolf synth
+                                                    migas hot chicken thundercats shabby chic tumeric
+                                                    tousled listicle.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6"><img src="" alt=""></div>
+                                        </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#fff" fill-opacity="1"
+                        d="M0,192L30,208C60,224,120,256,180,250.7C240,245,300,203,360,160C420,117,480,75,540,96C600,117,660,203,720,234.7C780,267,840,245,900,229.3C960,213,1020,203,1080,181.3C1140,160,1200,128,1260,122.7C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                    </path>
+                </svg>
+    </section>
+
+    <p class="text-center" id="displayTime"></p>
+
+    <!-- Footer -->
+    <footer class="copyright">
+        <div class="container">
+            <div class="row">
+                <p class="text-center fs-5 text">Monica Perez, 2021 ©</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script> -->
+    <script src="pages.js"></script>
+    <script src="practice.js"></script>
+
+</body>
+
+</html>

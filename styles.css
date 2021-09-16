@@ -1,0 +1,69 @@
+.nav-link {
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.navbar {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.gradient {
+	background: rgb(66, 47, 223);
+	background: linear-gradient(
+		326deg,
+		rgba(66, 47, 223, 1) 0%,
+		rgba(104, 90, 220, 1) 72%,
+		rgba(125, 120, 167, 1) 100%
+	);
+}
+
+.page-section {
+	font-size: 1.25rem;
+	padding-top: 1rem;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+.intro-p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.15rem;
+}
+
+#moi {
+	height: 250px;
+}
+
+.btn {
+	font-family: "Montserrat", sans-serif;
+}
+
+.fab,
+.fas {
+	color: #7a7c92;
+}
+
+.portfolio-word {
+	font-family: "Roboto", sans-serif;
+	font-size: 2.5rem;
+}
+
+.card-text {
+	color: #7a7c92;
+	font-family: "Montserrat", sans-serif;
+}
+
+.midPart {
+	padding-top: 0;
+}
